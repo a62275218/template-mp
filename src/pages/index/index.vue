@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    {{userInfo.name}}12131
+    {{userInfo.name}}
   </div>
 </template>
 
@@ -13,8 +13,10 @@ export default {
     }
   },
   async mounted(){
+    console.log('mounted')
+    
     const api = await this.$request('api')
-    console.log(api)
+    
   },
   computed:mapState([
     'userInfo'
@@ -44,5 +46,5 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 </style>
