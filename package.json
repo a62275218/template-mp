@@ -41,7 +41,7 @@
     "eventsource-polyfill": "^0.9.6",
     "express": "^4.17.3",
     "sass-loader": "7.0.3",
-    "node-sass": "4.12.0",
+    "node-sass": "7.0.0",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.11",
     "friendly-errors-webpack-plugin": "^1.7.0",
